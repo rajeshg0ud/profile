@@ -1,0 +1,88 @@
+body{
+  text-align: center;
+  background-color: #212121;
+}
+
+.top-container{
+  background-color: #213E3B;
+  display: block;
+}
+
+h1{
+  color: #1FAB89;
+  font-family: 'Segoe Script', cursive;
+  font-size:55px;
+  margin: 0 0 0 0;
+}
+h4{
+  color: #1FAB89;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin: 0 0 0 0;
+}
+p{
+  color: #F9F7F7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+table{
+  font-size: 18px;
+  color: #30E3CA;
+}
+
+td{
+  color: #F9F7F7;
+}
+th{
+  color: #30E3CA;
+}
+h2{
+  color: #30E3CA;
+}
+h3{
+  color: #30E3CA;
+}
+li{
+  font-size: 18px;
+  color: #F9F7F7;
+}
+label{
+  color: #F9F7F7;
+}
+.rajeshdp{
+  width: 15%;
+}
+.cloudl{
+
+position:relative;
+  top: 20px;
+  right: 380px;
+  width: 13%;
+}
+.cloudr{
+  position: relative;
+  left:330px;
+  top: 120px;
+  width: 13%;
+}
+.mountains{
+  width: 100%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.design-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.paint-img{
+  width: 25%;
+  float:left;
+  margin-right: 40px;
+}
