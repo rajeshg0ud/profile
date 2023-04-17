@@ -1,6 +1,6 @@
 body{
   text-align: center;
-  background-color: #212121;
+  background-color: rgb(28, 26, 26);
 }
 
 .top-container{
@@ -21,34 +21,15 @@ h4{
   margin: 0 0 0 0;
 }
 p{
-  color: #F9F7F7;
+  color: #1FAB89;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
 }
-
 table{
   font-size: 18px;
-  color: #30E3CA;
 }
-
-td{
-  color: #F9F7F7;
-}
-th{
-  color: #30E3CA;
-}
-h2{
-  color: #30E3CA;
-}
-h3{
-  color: #30E3CA;
-}
-li{
+ul{
   font-size: 18px;
-  color: #F9F7F7;
-}
-label{
-  color: #F9F7F7;
 }
 .rajeshdp{
   width: 15%;
@@ -66,10 +47,12 @@ position:relative;
   top: 120px;
   width: 13%;
 }
-.mountains{
+.himalayas{
   width: 100%;
 }
-
+.skills{ 
+  color: white;
+}
 .skill-row{
   width: 50%;
   margin: 100px auto 100px auto;
@@ -85,4 +68,33 @@ position:relative;
   width: 25%;
   float:left;
   margin-right: 40px;
+}
+.contact-me{
+    color: white;
+    font-size: 1vw;
+}
+.footer-link{
+    font-size: 0.4vw;
+}
+.footer-img{
+    height: 1vw; 
+    width: 1vw; 
+    padding: 1vw;
+}
+
+
+
+@media screen and (max-width:600px){
+    .contact-me{
+        color: white;
+        font-size: 1.4vw;
+    }
+    .footer-link{
+        font-size: 1.7vw;
+    }
+    .footer-img{
+        height: 1.9vw; 
+        width: 2vw; 
+        padding: 1.3vw;
+    }
 }
